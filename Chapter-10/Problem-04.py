@@ -1,21 +1,19 @@
 class Calculator:
-    @staticmethod
-    def __init__(n):
-        n = n 
+    def __init__(self, n):
+        self.n = n 
+    
+    def square(self):
+        print(f"The square is {self.n*self.n}")
+    def cube(self):
+        print(f"The cube is {self.n*self.n*self.n}")
+    def squareroot(self):
+        print(f"The squareroot is {self.n**1/2}")
         
     @staticmethod
-    def Square(n):
-         print("The sqaure", n*n)
-
-    @staticmethod
-    def Cube (n):
-        print("The Cube is", n*n*n)
-
-    @staticmethod
-    def SquareRoot(n):
-        print("The SquareRoot is ",n**1/2)
-
-a = Calculator(5)
-a.Square(5)
-a.SquareRoot(5)
-a.Cube(5)
+    def hello():
+        print("Hellow There!")
+a = Calculator(4)
+a.square()
+a.cube()
+a.squareroot()
+a.hello()
