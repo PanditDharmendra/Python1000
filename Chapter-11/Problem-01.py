@@ -9,10 +9,10 @@ class ThreeD_Vector(TowD_Vector):
         print(f"The name of the studio is {self.Num}")
 
 
-# e = TowD_Vector()
-# e.name()
+e = TowD_Vector()
+e.name()
 
 r = ThreeD_Vector()
-# r.Name()
-# r.name()
+r.Name()
+r.name()
 print(r.studio, r.Num)
